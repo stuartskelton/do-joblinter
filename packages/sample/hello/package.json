@@ -5,8 +5,7 @@
   "main": "hello.js",
   "scripts": {},
   "dependencies": {
-    "joblint": "2.3.2",
-    "http-status-codes": "^2.2.0"
+    "joblint": "2.3.2"
   },
   "devDependencies": {
     "jest": "^27.5.1"
