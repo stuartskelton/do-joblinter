@@ -1,4 +1,4 @@
-import * as joblint from 'joblint';
+const joblint = require('joblint')
 
 function main(args) {
    let linted_data = joblint(job);
