@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Hello world: NodeJs",
   "main": "hello.js",
-  "scripts": {
-    "test": "jest --coverage --runInBand --forceExit --verbose false"
-  },
+  "scripts": {},
   "dependencies": {
     "joblint": "2.3.2"
   },
