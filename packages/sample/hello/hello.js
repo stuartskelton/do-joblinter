@@ -1,7 +1,10 @@
+import * as joblint from 'joblint';
+
 function main(args) {
-    let name = args.name || 'stranger'
+   let linted_data = joblint(job);
+    console.log(linted_data)
+    let name =  "hi";
     let greeting = 'Hello ' + name + '!'
-    console.log(greeting)
     return {"body": greeting}
   }
 

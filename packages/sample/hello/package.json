@@ -6,7 +6,9 @@
   "scripts": {
     "test": "jest --coverage --runInBand --forceExit --verbose false"
   },
-  "dependencies": {},
+  "dependencies": {
+    "joblint": "2.3.2"
+  },
   "devDependencies": {
     "jest": "^27.5.1"
   }
