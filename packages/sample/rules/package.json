@@ -2,7 +2,7 @@
   "name": "hello",
   "version": "1.0.0",
   "description": "Hello world: NodeJs",
-  "main": "hello.js",
+  "main": "rules.js",
   "scripts": {},
   "dependencies": {
   },
