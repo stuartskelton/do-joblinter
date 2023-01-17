@@ -5,11 +5,11 @@ function main(args) {
   try {
     job = args.name;
     if (!job) {
-      return { "error" : "failed to provide a job" }
+      return { "body" : { "error" : "failed to provide a job" } }
     }
   } catch (e) {
     console.log(e);
-    return { "error" : "something went wrong" }
+    return { "body" : { "error" : "something went wrong" }}
   }
 
   let linted_data = {}
@@ -18,7 +18,7 @@ function main(args) {
     console.log(linted_data);
   } catch (e) {
     console.log(e);
-    return { "error" : "something went wrong" }
+    return { "body" : { "error" : "something went wrong" }}
   }
   return { "body" : linted_data }
 }
