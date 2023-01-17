@@ -1,0 +1,11 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "Hello world: NodeJs",
+  "main": "main.js",
+  "scripts": {},
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
