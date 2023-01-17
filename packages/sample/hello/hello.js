@@ -1,7 +1,13 @@
 const joblint = require('./joblint')
 
 function main(args) {
-  let job = args.name || 'stranger';
+  let job;
+  try {
+    job = args.name;
+  } catch (e) {
+    console.log(e);
+    return { "error" : "something went wrong" }
+  }
   if (!job) {
     return { "error" : "failed to provide a job" }
   }
@@ -12,4 +18,5 @@ function main(args) {
 
 exports.main = main
 
+// console.log(main({"a": "aaa"}))
 // main({"name": "the best blanket", rules: ["Competitive environment"]})
